@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Padding Example</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            width: 50%;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        .myDiv {
+            background-color: lightblue;
+            border: 2px solid black;
+
+            /* Applying padding to each side individually */
+            padding-top: 80px;
+            padding-right: 100px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .inner {
+            background-color: pink;
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myDiv">
+        <div class="inner">Pad_Box</div>
+    </div>
+</body>
+
+</html>

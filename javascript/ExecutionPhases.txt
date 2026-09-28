@@ -1,0 +1,7 @@
+Every execution context has two phases
+
+Phase 1: Memory Creation Phase (Creation Phase)
+JavaScript scans the code and allocates memory.
+
+Phase 2: Execution Phase
+Now JavaScript executes the code line by line.

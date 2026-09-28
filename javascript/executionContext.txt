@@ -1,0 +1,9 @@
+Execution Context
+an execution context as a box that contains everything JavaScript needs 
+to execute a piece of code.
+
+Types of Execution Context
+There are three main types:
+1. Global Execution Context (GEC)
+2. Function Execution Context (FEC)
+3. Eval Execution Context (rarely used)

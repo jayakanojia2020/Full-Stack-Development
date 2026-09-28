@@ -1,0 +1,2 @@
+>npx tsc .\min_heap.ts --ignoreConfig
+node .\min_heap.js

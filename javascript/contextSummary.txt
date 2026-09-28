@@ -1,0 +1,34 @@
+JavaScript Starts
+        │
+        ▼
+Create Global Execution Context
+        │
+        ▼
+Memory Creation Phase
+(variables → undefined,
+ functions → stored)
+        │
+        ▼
+Execution Phase
+        │
+        ▼
+Function Called?
+        │
+      Yes
+        ▼
+Create Function Execution Context
+        │
+        ▼
+Creation Phase
+        │
+        ▼
+Execution Phase
+        │
+        ▼
+Return Value
+        │
+        ▼
+Destroy Function Context
+        │
+        ▼
+Continue Global Execution

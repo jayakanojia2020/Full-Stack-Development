@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Using the BEM naming convention to design a Card */
+        
+        /* The Block follows the naming convention as: .card */
+        .card {
+            background-color: rgb(45, 97, 66);
+            border-radius: 8px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 100px auto;
+            box-shadow: 0px 2px 5px 2px #aaaaaa;
+            padding: 1rem;
+        }
+        
+        
+        /* The Elements follow the naming convention 
+        mentioned as: .block__element */
+        
+        .card__content {
+            padding: 16px;
+        }
+        
+        .card__title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .card__text {
+            font-size: 20px;
+            color: gray;
+            text-align: center;
+        }
+        
+        .card__button {
+            background-color: white;
+            color: black;
+            border-radius: 4px;
+            padding: 10px;
+            text-transform: uppercase;
+            margin: 10px;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px 2px #aaaaaa;
+            font-weight: bold;
+        }
+        
+        
+        /* The Modifiers follow the naming convention 
+        mentioned as: .block__element--modifier */
+        
+        .card__button--primary {
+            background-color: blue;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="card__content">
+            <h3 class="card__title">Card Title</h3>
+            <p class="card__text">Card text</p>
+        </div>
+        <button class="card__button">Button</button>
+        <button class="card__button card__button--primary">
+            Primary Button
+        </button>
+    </div>
+</body>
+
+</html>
