@@ -1,0 +1,26 @@
+// put node in queue
+// remove node
+// visit its neighbours
+// put invisited neighbor in the queue.
+// repeat
+
+function bfs(graph: Map<string, string[]>,
+    start: string
+): void{
+    const visited = new Set<string>();
+    const queue: string[]=[];
+
+    queue.push(start);
+    visited.add(start);
+    while(queue.length>0){
+        const node = queue.shift()!;
+        console.log(node);
+        const neighbours = graph.get(node)||[];
+        for( const neighbor of neighbours){
+            if(!visited.has(neighbor)){
+                visited.add(neighbor);
+                queue.push();
+            }
+        }
+    }
+}

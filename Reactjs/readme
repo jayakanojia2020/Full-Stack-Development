@@ -1,0 +1,21 @@
+//---------------------- REACT JS ------------ project setup-------------
+// step-1
+// vite is a build tool for creating a React application. 
+// lets first install the build tool using the below command.
+//<npm install -g create-vite>
+// the above command will return in a below output
+//added 1 package in 649ms
+
+// step-2
+// create react application
+// Run this command to create a React application named my-react-app
+//<npm create vite@latest my-react-app -- --template react>
+
+// we can use this single command to do the same
+//npm create vite@latest my-react-app -- --template react-ts
+// go to project
+//cd my-react-app
+// install dependencies
+// npm install
+//Start the development server
+//npm run dev
